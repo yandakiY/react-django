@@ -2,7 +2,7 @@ import React from 'react'
 
 const Blog = ({infos}) => {
   return (
-    <div className='w-3/6 border p-4'>
+    <div className='w-5/6 lg:w-3/6 border p-4'>
       
       {/* Image */}
       <div className="">
