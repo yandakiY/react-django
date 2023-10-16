@@ -1,15 +1,15 @@
 import React from 'react'
 
-const Blog = (infos) => {
+const Blog = ({infos}) => {
   return (
-    <div className='border p-4'>
-      test
+    <div className='w-3/6 border p-4'>
+      
       {/* Image */}
       <div className="">
-        <img src="" alt="" />
+        <img src="https://source.unsplash.com/random" alt="" className='h-40 w-48 rounded' />
       </div>
       {/* Title */}
-      <div>{infos.name} </div>
+      <div>{infos.name}</div>
       {/* Description */}
       <div>{infos.description} </div>
       {/* Price  */}
@@ -23,7 +23,7 @@ const Blog = (infos) => {
       </div>
       {/* Button "Add" */}
       <div>
-        <button className='p-4 border'>Add</button>
+        <button className='p-1 border rounded bg-slate-50 text-black bold w-28'>Add</button>
       </div>
     </div>
   )

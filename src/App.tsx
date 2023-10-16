@@ -25,9 +25,16 @@ function App() {
         })
   },[setProducts])
 
+  // body {
+  //   position: relative;
+  //   min-height: 100vh; /* Garantit que le contenu de la page au-dessus du footer occupe au moins la hauteur de l'écran. */
+  //   margin: 0;
+  //   padding: 0;
+  // }
+
   return (
     <>
-      <div className='h-screen m-6 flex flex-col'>
+      <div className='m-4 mb-28'>
         <Navbar />
         <Blogs isLoading={isLoading} products={products} />
       </div>
